@@ -4,7 +4,7 @@ import pandas as pd
 
 # Load the trained model and preprocessing transformer
 
-model = joblib.load('./models/XGboost_final_model_new.pkl')
+model = joblib.load('./models/xgboost_final_model_new.pkl')
 transformer = joblib.load('./models/preprocessing_transformer_new.pkl')
 
 
