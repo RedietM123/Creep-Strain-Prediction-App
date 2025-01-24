@@ -10,13 +10,14 @@ transformer = joblib.load('./models/preprocessing_transformer_new.pkl')
 
 
 # Title of the Web Application
-st.title("Creep Strain Prediction App")
+st.title("Creep Strain Prediction App Using ML")
 
 st.write(
     """
-    This app predicts the **Creep Strain Value** based on concrete material properties and environmental conditions.
+    This app calculates the **Creep Strain Value** using input parameters. Simply enter the required details on the left, check your inputs in the table on the right, and click Predict to see the result.
     """
 )
+
 
 # Sidebar for Input Features
 st.sidebar.header("Input Features")
