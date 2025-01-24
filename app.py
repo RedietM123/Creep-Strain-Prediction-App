@@ -88,3 +88,5 @@ if st.button("Predict"):
     except Exception as e:
         st.error(f"An error occurred: {e}")
 
+st.write("Developed by Rediet Moges")
+st.write("Adivisor Tesfaye Alemu(Ph.D)")
